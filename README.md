@@ -36,7 +36,7 @@ const arabictransliterate = require("arabic-transliterate");
 ### Latin transliteration examples :
 
 ```
-console.log('Latin IJMES >> الْعَرَبِيَّة : ', arabictransliterate("Maṭlaʿ al-Saʿdīn","latin2arabic","Arabic")); 
+console.log('Latin IJMES >> الْعَرَبِيَّة non-vocalised : ', arabictransliterate("Maṭlaʿ al-Saʿdīn","latin2arabic","Arabic")); 
     // Expected Latin IJMES >> الْعَرَبِيَّة non-vocalised :  مطﻼع  السعدين
 ```
 
@@ -44,8 +44,8 @@ console.log('Latin IJMES >> الْعَرَبِيَّة : ', arabictransliterate(
 ### الْعَرَبِيَّة transliteration examples :
 
 ```
-console.log('الْعَرَبِيَّة >> IJMES fully-vocalised : ', arabictransliterate("مُكَاتَبَات علاَّمي","arabic2latin","Arabic")); 
-    // Expected الْعَرَبِيَّة >> IJMES fully-vocalised : mukātabāt ʿallāmy
+console.log('fully-vocalised الْعَرَبِيَّة >> Latin IJMES : ', arabictransliterate("مُكَاتَبَات علاَّمي","arabic2latin","Arabic")); 
+    // Expected fully-vocalised الْعَرَبِيَّة >> Latin IJMES : mukātabāt ʿallāmy
 ```
 
 ## Execution 
