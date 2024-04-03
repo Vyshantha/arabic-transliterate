@@ -1,8 +1,10 @@
-# arabic-transliterate
+# NPM Package : arabic-transliterate
 Transliterator between الْعَرَبِيَّة (Arabic) and Latin script based on IJMES Standard
 
 # NPM Package : arabic-transliterate
-The package transliteration texts from fully-vocalised الْعَرَبِيَّة (Arabic) script to Latin script based on [IJMES](https://en.wikipedia.org/wiki/International_Journal_of_Middle_East_Studies) standard. Additionally the application transliterate texts from Latin script based on IJMES standard to non-vocalised الْعَرَبِيَّة (Arabic) script. To experiment functionality of this package use the [Arabic Transliterator App](https://vyshantha.github.io/arabictransliterate/) website on you browser.
+The package transliteration texts from `fully-vocalised` الْعَرَبِيَّة (Arabic) script to Latin script based on [IJMES](https://en.wikipedia.org/wiki/International_Journal_of_Middle_East_Studies) standard. Additionally the application transliterate texts from Latin script based on IJMES standard to `non-vocalised` الْعَرَبِيَّة (Arabic) script. To experiment functionality of this package use the [Arabic Transliterator App](https://vyshantha.github.io/arabictransliterate/) website on you browser. 
+
+Note : the `non-vocalised` الْعَرَبِيَّة (Arabic) text to Latin IJMES translieration isn't completely supported.
 
 ## Install [Node](https://nodejs.org/en/download), [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and then install this package
 ```npm install arabic-transliterate```
