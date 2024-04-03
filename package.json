@@ -1,0 +1,26 @@
+{
+  "name": "arabic-transliterate",
+  "version": "1.0.0",
+  "description": "Transliterator between الْعَرَبِيَّة (Arabic) and Latin script based on IJMES Standard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyshantha/arabic-transliterate.git"
+  },
+  "keywords": [
+    "transliterate",
+    "arabic",
+    "IJMES",
+    "latin",
+    "script"
+  ],
+  "author": "Vyshantha Simha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vyshantha/arabic-transliterate/issues"
+  },
+  "homepage": "https://github.com/Vyshantha/arabic-transliterate#readme"
+}
